@@ -43,3 +43,13 @@ student_dict = {
 print(student_dict)
 print(type(student_dict))
 #set   are the collection of identical methods
+my_set = {"apple", "banana", "cherry","Banana","banana"}  # set ignore the dublicate items just write once
+print(my_set)
+print(type(my_set))
+
+# important thing in set there is no index set are unstructured
+# Example   print(my_set[0])   # ❌ ERROR
+
+# If your goal is just to check whether a name exists in a set:
+if "banana" in my_set:
+    print("Found!")
