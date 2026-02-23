@@ -24,7 +24,7 @@ print(f"""The user first name is: {firstName}
     The user inter marks are:{user_inter_marks}
     The user inter marks are:{user_inter_marks}
     """)
-
+#understanding the datatypes
 print(type(user_id))
 print(type(user_city))
 print(type(user_cnic))
